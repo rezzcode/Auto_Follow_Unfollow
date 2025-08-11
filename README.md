@@ -31,6 +31,10 @@
 > Make sure `script.sh` file is changed to an executable file:\
 > You can open your repo on a codespace and achieve that by running the command `chmod u+x script.sh` Alternatively, you can clone your repo and then run the same command.
 
+### Live Example
+
+[Check Repo](github.com/the1Riddle/auto_follow-Unfollow_users)
+
 ## License
 
 This template and the code in it is licensed under the [MIT License](https://github.com/the-1Riddle/Auto_Follow_Unfollow/blob/main/LICENSE).
