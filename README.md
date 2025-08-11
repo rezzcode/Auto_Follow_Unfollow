@@ -33,7 +33,7 @@
 
 ### Live Example
 
-[Check Repo](github.com/the1Riddle/auto_follow-Unfollow_users)
+[Check Repo](https://github.com/the1Riddle/auto_follow-Unfollow_users)
 
 ## License
 
