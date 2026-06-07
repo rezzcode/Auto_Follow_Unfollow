@@ -42,7 +42,7 @@ if [[ -f "keepme.txt" ]]; then
   done < "keepme.txt"
 fi
 
-# Finds and follow back user that are following
+# Finds and follow back users that are following
 for USERNAME in "${FOLLOWERS[@]}"; do
   if [[ ! " ${FOLLOWING[@]} " =~ " ${USERNAME} " ]]; then
     curl -s -L \
