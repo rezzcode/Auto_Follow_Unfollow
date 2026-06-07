@@ -35,6 +35,8 @@ KEEP_USERS=()
 
 if [[ -f "keepme.txt" ]]; then
   while read -r USERNAME; do
+    USERNAME="${USERNAME#"${USERNAME%%[![:space:]]*}"}"
+    USERNAME="${USERNAME%"${USERNAME##*[![:space:]]}"}"
     [[ -z "$USERNAME" ]] && continue
     [[ "$USERNAME" == --* ]] && continue
     KEEP_USERS+=("$USERNAME")
